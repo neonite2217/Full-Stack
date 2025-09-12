@@ -3,7 +3,7 @@
 [![View My Profile](https://img.shields.io/badge/View-My_Profile-green?logo=GitHub)](https://github.com/neonite2217)
 [![View Repositories](https://img.shields.io/badge/View-My_Repositories-blue?logo=GitHub)](https://github.com/neonite2217?tab=repositories)
 
-# User Data Management System
+# Employee-Registration
 
 A full-stack web application for collecting and managing user data through a multi-step form interface. The system uses Redis for temporary session storage and PostgreSQL for permanent data storage.
 
@@ -109,59 +109,58 @@ Frontend (React) → Backend (FastAPI) → Redis (Temp) → PostgreSQL (Permanen
 - Redis 6+
 
 ## Python Dependencies (Backend)
-# See backend/requirements.txt for detailed Python packages
+ See backend/requirements.txt for detailed Python packages
 # Main packages:
-# - fastapi==0.104.1
-# - uvicorn[standard]==0.24.0
-# - psycopg2-binary==2.9.9
-# - redis==5.0.1
-# - sqlalchemy==2.0.23
-# - pydantic==2.5.0
+ - fastapi==0.104.1
+ - uvicorn[standard]==0.24.0
+ - psycopg2-binary==2.9.9
+ - redis==5.0.1
+ - sqlalchemy==2.0.23
+ - pydantic==2.5.0
 
 ## Node.js Dependencies (Frontend)
-# See frontend/package.json for detailed Node packages
+ See frontend/package.json for detailed Node packages
 # Main packages:
-# - react==18.2.0
-# - lucide-react==0.263.1
-# - tailwindcss==3.3.0
-
+ - react==18.2.0
+ - lucide-react==0.263.1
+ - tailwindcss==3.3.0
 ## Database Requirements
-# PostgreSQL database named 'userdata'
+ PostgreSQL database named 'userdata'
 # Redis server running on default port 6379
 
 ## Installation Commands
 
 ### Backend Setup:
-# cd backend
-# python -m venv .venv
-# source .venv/bin/activate
-# On Windows: .venv\Scripts\activate
-# pip install -r requirements.txt
+ cd backend
+ python -m venv .venv
+ source .venv/bin/activate
+ On Windows: .venv\Scripts\activate
+ pip install -r requirements.txt
 
 ### Frontend Setup:
-# cd frontend
-# npm install
+ cd frontend
+ npm install
 
 ### Database Setup:
 # PostgreSQL: CREATE DATABASE userdata;
 # Redis: redis-server
 
 ## Environment Configuration
-# Copy backend/.env.example to backend/.env
-# Update database credentials in .env file
+ Copy backend/.env.example to backend/.env
+ Update database credentials in .env file
 
 ## Running the Application
-# Terminal 1 (Backend): cd backend && source .venv/bin/activate && python backend.py
-# Terminal 2 (Frontend): cd frontend && npm start
-# Terminal 3 (Redis): redis-server
-# PostgreSQL should be running as a service
+ Terminal 1 (Backend): cd backend && source .venv/bin/activate && python backend.py
+ Terminal 2 (Frontend): cd frontend && npm start
+ Terminal 3 (Redis): redis-server
+ PostgreSQL should be running as a service
 
 ## 🚀 Quick Start
 
 ### 1. Clone and Setup
 ```bash
-git clone 
-cd user-data-management
+git clone https://github.com/neonite2217/Full-Stack.git 
+cd Full-Stack/Employee-Registration
 ```
 
 ### 2. Backend Setup
