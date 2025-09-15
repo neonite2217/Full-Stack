@@ -295,6 +295,15 @@ SELECT * FROM users ORDER BY created_at DESC LIMIT 5;
 
 ## 🛠️ Development
 
+## 🎥 Demo Videos
+
+### Frontend Demo
+[![Frontend Demo](https://img.shields.io/badge/▶-Watch%20Frontend%20Demo-blue)](./Frontend.webm)
+
+### Database Info Demo
+[![Database Demo](https://img.shields.io/badge/▶-Watch%20Database%20Demo-green)](./databaseinfo.webm)
+
+
 ### Adding New Fields
 1. Update Pydantic models in `backend.py`
 2. Add database columns to User model
